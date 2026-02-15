@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Card } from './shared/components/card/card';
+import { RadioForms } from './shared/components/radio-forms/radio-forms';
 
 @Component({
   selector: 'git101-root',
-  imports: [RouterOutlet, Card],
+  imports: [RouterOutlet, Card, RadioForms],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
