@@ -12,7 +12,7 @@ import { Select } from './shared/components/select/select';
 })
 export class App {
   protected readonly title = signal('git101');
-  protected readonly name = 'Bank20baht';
+  protected readonly name = 'Bank Nattapong';
 
   getTitle() {
     return this.title;
