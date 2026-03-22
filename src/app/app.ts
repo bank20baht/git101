@@ -12,8 +12,13 @@ import { Select } from './shared/components/select/select';
 })
 export class App {
   protected readonly title = signal('git101');
+  protected readonly name = 'Bank20baht';
 
   getTitle() {
     return this.title;
+  }
+
+  getName() {
+    return this.name;
   }
 }
